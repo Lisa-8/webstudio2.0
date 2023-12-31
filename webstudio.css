@@ -18,7 +18,7 @@
   }
   .header a:hover {
     color: var(--accent-color);
-    text-decoration: underline;
+    text-decoration: none;
   }
   /* 1 секція */
   .section-one {
@@ -46,6 +46,8 @@
     font-weight: 400;
     color: var(--text-color);
     line-height: 170%;
+    margin-top: 94px;
+    margin-bottom: 94px;
   }
   .section-two h5 {
     font-size: 14px;
@@ -61,6 +63,7 @@
     font-weight: 700;
     line-height: 116%;
     text-align: center;
+    margin-bottom: 94px;
   }
   
   /* 4 секція */
@@ -108,9 +111,11 @@
   }
   .footer a {
     color: #fff;
+    text-decoration: none;
   }
   .footer a:hover {
     color: var(--accent-color);
+    text-decoration: none;
   }
   /* котейнер */
   .container {
