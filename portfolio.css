@@ -12,14 +12,14 @@ body {
     display: flex;
     align-items: center;
     text-align: justify;
-    line-height: 1,17;
-    height: 80px;
-    padding-left: 215px;
-    margin-bottom: 94px;
   }
   
   .header-nav-p a {
     color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 114%;
   }
   .header-nav-p a:hover {
     color: var(--accent-color);
@@ -76,5 +76,12 @@ body {
   }
   .footer-portfolio a:hover {
     color: var(--accent-color);
+  }
+
+  /* котейнер */
+  .container {
+    width: 1170px;
+    margin: 0px auto;
+    padding: 0px 15px;
   }
   
