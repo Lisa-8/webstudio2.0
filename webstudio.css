@@ -9,29 +9,25 @@ body {
 }
 
 /* шапка */
-.header {
+.page-header {
   padding: 24px 0;
 }
-
-.header-nav-contact {
-  float: right;
-  margin-left: 50px;
-}
-
-.header-nav-item {
-  margin-left: 50px;
-}
-
-.header a {
+.page-header a {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: #000;
   text-decoration: none;
   line-height: 114%;
+  padding: 30px;
 }
-
-.header a:hover {
+.page-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.page-header a:hover {
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -41,22 +37,27 @@ body {
   background-color: var(--background);
   padding: 200px;
   color: white;
+  
 }
-
 .section-one h1 {
   width: 696px;
   font-size: 44px;
   font-weight: 900;
   line-height: 136%;
   margin-bottom: 30px;
+  text-align: center;
 }
-
 .button-section-one {
   width: 216;
   height: 50px;
   line-height: 180%;
   color: #fff;
   background-color: var(--accent-color);
+  text-align: center;
+}
+.section-one .container {
+  justify-content: center;
+  align-content: center;
 }
 
 /* 2 секція */
@@ -75,16 +76,30 @@ body {
   line-height: 114%;
 }
 
+.section-two .container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
 /* чим ми займаємось */
 .section-three h2 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 116%;
+  text-align: center;
 }
 
 .section-three-wrap {
   padding: 50px 0 94px 0;
+  justify-content: space-between;
+  display: flex;
+}
+.section-three-img {
+  max-width: 100%; 
+  margin-right: 30px; 
 }
 
 /* 4 секція */
@@ -106,6 +121,7 @@ body {
   color: #000;
   margin: 0 auto;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .section-four-item {
@@ -168,4 +184,5 @@ body {
   width: 1170px;
   margin: 0px auto;
   padding: 0px 15px;
+  display: flex;
 }
