@@ -4,8 +4,14 @@
   --text-color: #757575;
 }
 
+*{
+  margin:0;
+  padding:0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 /* шапка */
@@ -19,7 +25,9 @@ body {
   color: #000;
   text-decoration: none;
   line-height: 114%;
-  padding: 30px;
+}
+.page-header a:not(:last-child) {
+  padding-right: 30px;
 }
 .page-header .container {
     display: flex;
@@ -35,7 +43,7 @@ body {
 /* 1 секція */
 .section-one {
   background-color: var(--background);
-  padding: 200px;
+  padding: 200px 0;
   color: white;
   
 }
@@ -56,8 +64,9 @@ body {
   text-align: center;
 }
 .section-one .container {
-  justify-content: center;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* 2 секція */
@@ -66,7 +75,7 @@ body {
   font-weight: 400;
   color: var(--text-color);
   line-height: 170%;
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .section-two h5 {
@@ -98,8 +107,7 @@ body {
   display: flex;
 }
 .section-three-img {
-  max-width: 100%; 
-  margin-right: 30px; 
+  max-width: 100%;
 }
 
 /* 4 секція */
@@ -128,10 +136,6 @@ body {
   margin: 0 auto;
 }
 
-.section-four-item-figure {
-  margin: 0 auto;
-}
-
 .section-four-item h6 {
   font-size: 16px;
   font-weight: 500;
@@ -155,9 +159,14 @@ body {
   height: 260px;
 }
 
+.section-four-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* підвал */
 .footer {
-  padding: 60px;
+  padding: 60px 0;
   background-color: var(--background);
   list-style: none;
 }
@@ -184,5 +193,4 @@ body {
   width: 1170px;
   margin: 0px auto;
   padding: 0px 15px;
-  display: flex;
 }
