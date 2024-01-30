@@ -4,20 +4,28 @@
   --text-color: #757575;
 }
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
 /* шапка */
+.page-header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .page-header {
   padding: 24px 0;
 }
+
 .page-header a {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -26,18 +34,18 @@ body {
   text-decoration: none;
   line-height: 114%;
 }
+
 .page-header a:not(:last-child) {
   padding-right: 30px;
 }
-.page-header .container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+
 .page-header a:hover {
   color: var(--accent-color);
   text-decoration: none;
+}
+
+#header-nav-third-element {
+  margin-right: 314px;
 }
 
 /* 1 секція */
@@ -45,8 +53,8 @@ body {
   background-color: var(--background);
   padding: 200px 0;
   color: white;
-  
 }
+
 .section-one h1 {
   width: 696px;
   font-size: 44px;
@@ -55,6 +63,7 @@ body {
   margin-bottom: 30px;
   text-align: center;
 }
+
 .button-section-one {
   width: 216;
   height: 50px;
@@ -62,7 +71,10 @@ body {
   color: #fff;
   background-color: var(--accent-color);
   text-align: center;
+  padding: 10px 32px 10px 32px;
+  cursor: pointer;
 }
+
 .section-one .container {
   display: flex;
   flex-direction: column;
@@ -83,6 +95,7 @@ body {
   font-weight: 700;
   color: #000;
   line-height: 114%;
+  margin-bottom: 10px;
 }
 
 .section-two .container {
@@ -106,6 +119,7 @@ body {
   justify-content: space-between;
   display: flex;
 }
+
 .section-three-img {
   max-width: 100%;
 }
@@ -113,11 +127,11 @@ body {
 /* 4 секція */
 .section-four {
   padding: 94px 0;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .section-four-figcaption {
-  padding-left: 71px;
+  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -164,6 +178,10 @@ body {
   justify-content: space-between;
 }
 
+.section-four-item-figure {
+  background-color: #fff;
+}
+
 /* підвал */
 .footer {
   padding: 60px 0;
@@ -173,6 +191,7 @@ body {
 
 .footer ul {
   list-style: none;
+  padding-top: 20px;
   padding-left: 0;
 }
 

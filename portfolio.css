@@ -1,27 +1,43 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 :root {
   --accent-color: #2196f3;
   --background: #2f303a;
   --text-color: #757575;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* хедер */
+.header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .header {
   display: flex;
   align-items: center;
-  text-align: justify;
   padding: 24px 0;
 }
-
-.header-nav-contact {
+.header-logo {
+  margin-right: 93px;
+}
+.header-nav-p {
   float: right;
-  margin-left: 50px;
+}
+.header-nav-item-p:not(:last-child){
+  margin-right: 50px;
+}
+#header-nav-third-element {
+  margin-right: 314px;
 }
 
-/* хедер навігація */
 .header-nav-p a {
   color: black;
   font-family: "Roboto", sans-serif;
@@ -29,9 +45,7 @@ body {
   font-weight: 500;
   line-height: 114%;
   text-decoration: none;
-  margin-left: 50px;
 }
-
 .header-nav-p a:hover {
   color: var(--accent-color);
   text-decoration: none;
@@ -40,6 +54,10 @@ body {
 /* кнопки */
 .button {
   padding-top: 94px;
+  cursor: pointer;
+}
+.button :not(:last-child) {
+ margin-right: 8px;
 }
 
 .button-item {
@@ -51,18 +69,30 @@ body {
   height: 38px;
   font-weight: 500;
   line-height: 162%;
+  padding: 6px 22px;
+}
+
+.button .container {
+  text-align: center;
 }
 
 /* галерея */
+.gallery .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .gallery {
   padding: 50px 0 94px 0;
+  width: 100%;
 }
 
 .gallery-item {
   border: 1px solid #EEEEEE;
   width: 370px;
   height: 404px;
-  margin: 0px 30px 30px 0;
+  margin-bottom: 20px;
 }
 
 .gallery-figcaption {
@@ -100,6 +130,7 @@ body {
 .footer-portfolio ul {
   list-style: none;
   padding-left: 0;
+  padding-top: 20px;
 }
 
 .footer-portfolio a {
@@ -116,6 +147,6 @@ body {
 /* котейнер */
 .container {
   width: 1170px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 0px 15px;
 }
