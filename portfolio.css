@@ -54,15 +54,15 @@ body {
 /* кнопки */
 .button {
   padding-top: 94px;
-  cursor: pointer;
 }
 .button :not(:last-child) {
  margin-right: 8px;
 }
 
 .button-item {
-  color: #fff;
-  background-color: var(--accent-color);
+  cursor: pointer;
+  color: #212121;
+  background-color: #F5F4FA;
   border-radius: 4px;
   border: none;
   width: 112px;
@@ -70,6 +70,10 @@ body {
   font-weight: 500;
   line-height: 162%;
   padding: 6px 22px;
+}
+.button-item:hover {
+  color: #fff;
+  background-color: #2196f3;
 }
 
 .button .container {
@@ -123,7 +127,6 @@ body {
   font-weight: 400;
   color: #fff;
   background-color: var(--background);
-  height: 252px;
   padding: 60px;
 }
 
