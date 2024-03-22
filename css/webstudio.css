@@ -56,7 +56,7 @@ body {
   padding: 200px 0;
   position: relative;
     width: 100%; /* або будь-який інший розмір, який ви визначили */
-  background-image: url(./webstudioimg/bgheader.jpg);
+  background-image: url('../webstudioimg/bgheader.jpg');
 }
 
 .section-one::before {
