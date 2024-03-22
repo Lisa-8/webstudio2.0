@@ -55,7 +55,7 @@ body {
   background-size: cover;
   padding: 200px 0;
   color: white;
-  background-image: url('../webstudioimg/bgheader.jpg');
+  background-image: url('./webstudioimg/bgheader.jpg');
 }
 .section-one h1 {
   width: 696px;
