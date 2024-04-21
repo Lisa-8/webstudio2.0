@@ -40,7 +40,7 @@ body {
 }
 
 #header-nav-third-element {
-  margin-right: 314px;
+  margin-right: 290px;
 }
 
 .header-nav-p a {
@@ -55,6 +55,14 @@ body {
 .header-nav-p a:hover {
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.icon-envelope-hover{
+  margin: 2px 10px 2px 0;
+}
+
+.icon-smartphone {
+  margin-right: 10px;
 }
 
 /* кнопки */
@@ -185,6 +193,60 @@ body {
 .footer-portfolio a:hover {
   color: var(--accent-color);
   text-decoration: none;
+}
+.footer-right {
+  margin: 12px 0 0 70px;
+}
+
+.footer-right-header {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 114%;
+  margin-bottom: 20px;
+}
+
+.footer-right-icons {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+
+.footer-wrap {
+  display: flex;
+}
+
+.footer-right-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon-list {
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+}
+
+.footer-icon-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-icon-list-link {
+  text-decoration: none;
+}
+
+.footer-icons-item {
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: color 0.5s; 
+  border-radius: 35px;
+}
+
+.footer-icons-item:hover {
+  color: white;
+  background-color: var(--accent-color);
 }
 
 /* котейнер */
