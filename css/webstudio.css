@@ -198,6 +198,29 @@ body {
 
 .section-three-img {
   max-width: 100%;
+  display: block;
+}
+
+.thumb{
+  position: relative;
+}
+
+.section-three-img-decs{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 27px 108px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3%;
+  color: white;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.section-three-img-decs-three{
+  padding: 27px 95px;
 }
 
 /* 4 секція */
