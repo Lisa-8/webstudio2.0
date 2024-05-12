@@ -108,7 +108,7 @@ label p {
 .form-input-first::placeholder {
     width: 18px;
     height: 18px;
-    background-image: url('/webstudioimg/pearson-icon.svg');
+    background-image: url('../webstudioimg/pearson-icon.svg');
     background-size: contain;
     background-position: center;
 }
@@ -116,7 +116,7 @@ label p {
 .form-input-second::placeholder {
     width: 18px;
     height: 18px;
-    background-image: url('/webstudioimg/phone-icon.svg');
+    background-image: url('../webstudioimg/phone-icon.svg');
     background-size: contain;
     background-position: center;
 }
@@ -124,7 +124,7 @@ label p {
 .form-input-third::placeholder {
     width: 18px;
     height: 18px;
-    background-image: url('/webstudioimg/e-mail-icon.svg');
+    background-image: url('../webstudioimg/e-mail-icon.svg');
     background-size: contain;
     background-position: center;
 }
