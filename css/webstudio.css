@@ -33,6 +33,7 @@ body {
   color: #000;
   text-decoration: none;
   line-height: 114%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .page-header a:not(:last-child) {
@@ -56,6 +57,7 @@ body {
 .header-nav-item.active {
   position: relative;
   padding-bottom: 24px;
+  transition: color 250ms ease;
 }
 
 .header-nav-item.active:hover::after {
@@ -133,6 +135,7 @@ body {
   border-radius: 4px;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: color 250ms ease;
 }
 
 .button-section-one:hover {
@@ -326,7 +329,7 @@ body {
   font-size: 16px;
   padding: 12px;
   background-color: none;
-  transition: color 0.5s;
+  transition: color 0.5s ease, background-color 250ms ease;
   border-radius: 35px;
 }
 
@@ -370,7 +373,7 @@ body {
   padding: 16px 32px;
   border: 1px solid var(--text-color);
   border-radius: 4px;
-  transition: border-color 0.5s ease;
+  transition: color 0.5s ease, border-color 0.5s ease;
 }
 
 .regular-customer-icon:hover {
@@ -398,6 +401,7 @@ body {
 
 #unique-element {
   color: #fff;
+  transition: color 250ms ease;
 }
 
 #unique-element:hover {
@@ -411,6 +415,7 @@ body {
   line-height: 171%;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: color 250ms ease;
 }
 
 .footer a:hover {
@@ -454,7 +459,7 @@ body {
   font-size: 16px;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: color 0.5s;
+  transition: color 0.5s ease,background-color 250ms ease;
   border-radius: 35px;
 }
 

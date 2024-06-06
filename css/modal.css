@@ -57,6 +57,8 @@ body {
     width: 528px;
 }
 
+
+
 .input-container-first,
 .input-container-second,
 .input-container-third {
@@ -72,6 +74,7 @@ body {
     left: 15px;
     /* відступ від лівого краю */
     transform: translateY(-50%);
+    transition: color 250ms ease;
 }
 
 .input-container-second::before {
@@ -101,9 +104,6 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-
-/*оформлення*/
-
 /*кнопка закрити*/
 
 .btn {
@@ -118,6 +118,7 @@ body {
     color: #000000;
     font-size: 20px;
     cursor: pointer;
+    transition: color 250ms ease;
 }
 
 .btn:hover {
@@ -159,6 +160,7 @@ label {
     font-weight: 400;
     line-height: 171%;
     letter-spacing: 1px;
+    transition: color 250ms ease;
 }
 
 label,
@@ -169,6 +171,13 @@ label p {
     font-weight: 400;
     line-height: auto;
     text-align: start;
+}
+input{
+    transition: color 250ms ease;
+}
+
+textarea{
+    transition: color 250ms ease; 
 }
 
 /*focus/focus-within*/
@@ -215,6 +224,7 @@ textarea:focus {
     border-radius: 4px;
     margin-top: 23px;
     cursor: pointer;
+    transition: color 250ms ease; 
 }
 
 .form-btn:hover {
