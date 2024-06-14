@@ -26,6 +26,7 @@ body {
   padding: 24px 0;
 }
 
+
 .page-header a {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -123,6 +124,19 @@ body {
   line-height: 136%;
   margin-bottom: 30px;
   text-align: center;
+  transform: translateY(90%);
+  animation: slideUp 1s forwards;
+}
+
+@keyframes slideUp {
+  from {
+      opacity: 0;
+      transform: translateY(50%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 .button-section-one {
@@ -596,7 +610,7 @@ textarea:focus {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .regular-customers-link {
@@ -604,7 +618,7 @@ textarea:focus {
 }
 
 .regular-customer-icon {
-  font-size: 60px;
+  font-size: 56.5px;
   color: var(--text-color);
   transition: color 0.5s;
   padding: 16px 32px;
