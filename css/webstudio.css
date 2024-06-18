@@ -245,6 +245,10 @@ body {
   transition: color 250ms ease;
 }
 
+.input-container-first:focus-within::before {
+  filter: invert(29%) sepia(95%) saturate(2858%) hue-rotate(189deg) brightness(99%) contrast(104%);
+}
+
 .input-container-second::before {
   content: url('../webstudioimg/phone-black-18dp\ 1.svg');
   /* шлях до вашого зображення */
@@ -256,6 +260,10 @@ body {
   transform: translateY(-50%);
 }
 
+.input-container-second:focus-within::before {
+  filter: invert(29%) sepia(95%) saturate(2858%) hue-rotate(189deg) brightness(99%) contrast(104%);
+}
+
 .input-container-third::before {
   content: url('../webstudioimg/email-black-18dp\ 1.svg');
   /* шлях до вашого зображення */
@@ -265,6 +273,10 @@ body {
   left: 15px;
   /* відступ від лівого краю */
   transform: translateY(-50%);
+}
+
+.input-container-third:focus-within::before {
+  filter: invert(29%) sepia(95%) saturate(2858%) hue-rotate(189deg) brightness(99%) contrast(104%);
 }
 
 .input-container-first::before:focus {
